@@ -7,7 +7,13 @@ export const Header = ({ color }) => {
         Color-PaleTTe
       </div>
       <nav className="header__nav">
-        <a href="/" className="nav__item" style={{ color: color }}>
+        <a
+          href="https://github.com/mare-viz/color-palette"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav__item"
+          style={{ color: color }}
+        >
           Repos
         </a>
       </nav>
