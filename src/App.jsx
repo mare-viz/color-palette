@@ -5,16 +5,7 @@ import Main from "./layouts/Main";
 
 function App() {
   const [color, setColor] = useState("");
-  const [colorsList, setColorsList] = useState([
-    { color: "#47ffd1", id: 8 },
-    { color: "#3dff7e", id: 7 },
-    { color: "#00d5ff", id: 6 },
-    { color: "#8ee4f5", id: 5 },
-    { color: "#43b9d0", id: 4 },
-    { color: "#622828", id: 3 },
-    { color: "#b62b2b", id: 2 },
-    { color: "#f08f8f", id: 1 },
-  ]);
+  const [colorsList, setColorsList] = useState([]);
 
   useEffect(() => {
     setColor(localStorage.getItem("color"));
